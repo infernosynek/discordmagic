@@ -9,5 +9,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: apt-get update && apt-get install -y figlet
+      - run: sudo apt install figlet
       - run: figlet Hello
